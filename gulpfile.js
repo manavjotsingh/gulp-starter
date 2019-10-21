@@ -38,6 +38,6 @@ gulp.task('browser-sync', function() {
     .on('change', browserSync.reload);
 }); 
 
-gulp.task('default', gulp.parallel('browser-sync', 'scripts'));
+gulp.task('default', gulp.parallel('browser-sync', 'watch'));
 
 
